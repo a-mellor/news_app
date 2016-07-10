@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My task list</title>
+    <!-- <link rel="stylesheet" href="/css/master.css" media="screen"> -->
+    <script src="src/task.js"></script>
+    <script src="src/list.js"></script>
+  </head>
+
+  <body>
+    <h1>To Do List</h1><br>
+    My Agenda
+      <form id="taskform" method="post" action="/intercept">
+        <input id="task-text" type="text" name="task" placeholder="task" autocomplete="off">
+        <input type="submit" id="entertask" name="Add to list">
+      </form>
+
+
+      <ul id="classlist">
+
+      </ul>
+
+
+    <script src="index.js"></script>
+
+  </body>
+
+</html>

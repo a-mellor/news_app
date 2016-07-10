@@ -1,0 +1,17 @@
+{
+  "name": "news_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "http-server": "^0.9.0",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4"
+  }
+}
